@@ -1,4 +1,6 @@
 import "@styles/globals.css";
+import Nav from "@components/Nav";
+import Provider from "@components/Provider";
 
 export const metadata = {
   title: "CRUD-App",
@@ -11,7 +13,10 @@ const RoutLayout = ({ children }) => {
       <body>
         <div className="main">
           <div className="gradient" />
-          <main className="app">{children}</main>
+          <main className="app">
+            <Nav />
+            {children}
+          </main>
         </div>
       </body>
     </html>
