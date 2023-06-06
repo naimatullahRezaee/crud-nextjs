@@ -11,13 +11,15 @@ const RoutLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <div className="main">
-          <div className="gradient" />
+        <Provider>
+          <div className="main">
+            <div className="gradient" />
+          </div>
           <main className="app">
             <Nav />
             {children}
           </main>
-        </div>
+        </Provider>
       </body>
     </html>
   );
