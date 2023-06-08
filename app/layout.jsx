@@ -4,7 +4,7 @@ import Provider from "@components/Provider";
 
 export const metadata = {
   title: "CRUD-App",
-  description: "This CRUD NextJs App ",
+  description: "CRUD NextJs App ",
 };
 
 const RoutLayout = ({ children }) => {
